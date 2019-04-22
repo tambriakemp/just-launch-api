@@ -54,14 +54,3 @@ router.post("/", jwtAuth, (req, res) => {
 });
 
 module.exports = { router };
-
-//server
-// app.use(
-//   cors({
-//     origin: CLIENT_ORIGIN
-//   })
-// );
-// const { PORT, CLIENT_ORIGIN, DATABASE_NAME } = require('./config');
-
-// //env
-// CLIENT_ORIGIN: process.env.CLIENT_ORIGIN || "http://localhost:3000",
